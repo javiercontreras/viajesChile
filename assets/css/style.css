@@ -28,5 +28,11 @@ body{
 footer{
   background-color: var(--color-aero);
   color: var(--color-white);
+
+}
+
+footer i{
+  padding-left: 10px;
+  font-size: 30px;
 }
 /* END FOOTER  */
