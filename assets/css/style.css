@@ -1,3 +1,10 @@
+:root{
+  --color-black: #00100b;
+  --color-aero: #14bdeb;
+  --color-thistle: #dccde8;
+  --color-white: #fff;
+}
+
 
 html {
     /* Universal Box Sizing with Inheritance */
@@ -14,3 +21,12 @@ body{
     font-style: normal;
     /* Google Font End */
 }
+
+
+
+/* START FOOTER */
+footer{
+  background-color: var(--color-aero);
+  color: var(--color-white);
+}
+/* END FOOTER  */
