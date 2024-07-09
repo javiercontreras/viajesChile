@@ -1,0 +1,16 @@
+
+html {
+    /* Universal Box Sizing with Inheritance */
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    /* Google Font  */
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* Google Font End */
+}
