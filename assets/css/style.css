@@ -23,7 +23,18 @@ body{
     background-color: var(--color-black);
 }
 
+/* FORM SECTION START */
 
+#contact_form,label, h2, hr{
+  color: var(--color-white);
+}
+
+#contact_form #btn_send{
+  background-color: var(--color-aero);
+  color: var(--color-white);
+  width: 100px;
+}
+/* FORM SECTION END  */
 
 /* START FOOTER */
 footer{
@@ -31,7 +42,10 @@ footer{
   color: var(--color-white);
 
 }
+footer a:visited{
+  color: inherit;
 
+}
 footer i{
   padding-left: 10px;
   font-size: 30px;
