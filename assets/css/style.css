@@ -8,6 +8,7 @@
 html {
     /* Universal Box Sizing with Inheritance */
     box-sizing: border-box;
+    scroll-behavior: smooth; 
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -21,10 +22,37 @@ body{
     /* Google Font End */
     background-color: var(--color-black);
 }
+/* Header */
 
+#div_nav_header{
+  width: 100%;
+  height: auto;
+  z-index: 2000;
+}
+
+header #nav_bar{
+  background-color: none !important;
+}
+header #nav_bar a{
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 18px;
+}
+#div_nav_header #logo_viajes_chile{
+  height: 50px;
+}
+#div_nav_header #p_viajes_chile{
+  font-weight: bold;
+  font-size: 35px;
+  color: var(--color-white);
+}
+
+#div_nav_header a{
+  scroll-behavior: smooth;
+}
 /* Carousel */
 #carouselExampleFade img{
-  height:750px;
+  height:auto;
 }
 /* WHO SECTION START  */
 #whoWeAre i{
@@ -62,6 +90,15 @@ body{
   color: var(--color-white);
   width: 100px;
 }
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--color-aero);
+  --bs-tooltip-color: var(--color-white);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
 /* FORM SECTION END  */
 
 /* START FOOTER */
