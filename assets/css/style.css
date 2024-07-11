@@ -5,7 +5,6 @@
   --color-white: #fff;
 }
 
-
 html {
     /* Universal Box Sizing with Inheritance */
     box-sizing: border-box;
@@ -37,6 +36,17 @@ body{
 
 /* WHO SECTION END  */
 
+/* SECTION-HIGHLIGHTS */
+#highlight .card{
+ background-color: var(--color-aero);
+ color: var(--color-white);
+ border: 2px solid gray;
+}
+
+#highlight img{
+  height: 175px;
+}
+/*SECTION END HIGHLIGHTS*/
 
 /* FORM SECTION START */
 
