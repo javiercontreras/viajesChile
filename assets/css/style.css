@@ -23,6 +23,21 @@ body{
     background-color: var(--color-black);
 }
 
+
+/* WHO SECTION START  */
+#whoWeAre i{
+  color: var(--color-white);
+  background-color: var(--color-aero);
+  font-size: 20px;
+}
+#whoWeAre{
+  color: var(--color-white);
+  text-align: justify;
+}
+
+/* WHO SECTION END  */
+
+
 /* FORM SECTION START */
 
 #contact_form,label, h2, hr{
