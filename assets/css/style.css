@@ -22,7 +22,10 @@ body{
     background-color: var(--color-black);
 }
 
-
+/* Carousel */
+#carouselExampleFade img{
+  height:750px;
+}
 /* WHO SECTION START  */
 #whoWeAre i{
   color: var(--color-white);
