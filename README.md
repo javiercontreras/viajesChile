@@ -9,4 +9,4 @@
 
 #Pagina web
 
-https://javiercontreras.github.io/viajesChile/#whoWeAre
+https://javiercontreras.github.io/viajesChile
